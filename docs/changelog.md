@@ -257,7 +257,7 @@ modular update mojo
 - Added [`AnyPointer.move_into()`](/mojo/stdlib/memory/anypointer.html#move_into)
   method, for moving a value from one pointer memory location to another.
 
-- Added built-in [`hex()`](mojo/stdlib/builtin/hex#hex) function, which can be
+- Added built-in [`hex()`](/mojo/stdlib/builtin/hex#hex) function, which can be
   used to format any value whose type implements the
   [`Intable`](/mojo/stdlib/builtin/int#intable) trait as a hexadecimal string.
 
@@ -971,7 +971,7 @@ modular update mojo
 
 - Several standard library types now conform to the
   [`CollectionElement`](/mojo/stdlib/builtin/value#collectionelement)
-  trait.  These types include [`Bool`](/mojo/stdlib/builtins/bool.html#bool),
+  trait.  These types include [`Bool`](/mojo/stdlib/builtin/bool.html#bool),
   [`StringLiteral`](/mojo/stdlib/builtin/string_literal.html#stringliteral),
   [`DynamicVector`](/mojo/stdlib/collections/vector.html#dynamicvector),
   [`Tensor`](/mojo/stdlib/tensor/tensor.html#tensor),
